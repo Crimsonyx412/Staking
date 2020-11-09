@@ -36,7 +36,6 @@ const UserMenu: FC<UserMenuProps> = ({ isTextButton }) => {
 						<MenuButton
 							onClick={() => {
 								setSettingsModalOpened(!settingsModalOpened);
-								setNotificationsModalOpened(false);
 							}}
 							isActive={settingsModalOpened}
 						>
