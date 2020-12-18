@@ -54,7 +54,7 @@ const StyledDialogOverlay = styled(DialogOverlay)`
 const StyledDialogContent = styled(DialogContent)`
 	padding: 0;
 	border: 0;
-	background: none;
+	background: ${(props) => props.theme.colors.navy};
 	${media.lessThan('sm')`
 		&&& {		
 			width: 100%;
@@ -66,6 +66,7 @@ const StyledDialogContent = styled(DialogContent)`
 
 const StyledCard = styled(Card)`
 	height: 100%;
+	background: ${(props) => props.theme.colors.navy};
 `;
 
 const StyledCardHeader = styled(Card.Header)`
