@@ -14,6 +14,7 @@ export const inputCSS = css`
 	::placeholder {
 		color: ${(props) => props.theme.colors.silver};
 	}
+	caret-color: ${(props) => props.theme.colors.blue};
 	outline: none;
 `;
 
