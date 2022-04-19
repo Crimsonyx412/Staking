@@ -25,6 +25,7 @@ const queryCache = new QueryCache({
 	defaultConfig: {
 		queries: {
 			refetchInterval: DEFAULT_REQUEST_REFRESH_INTERVAL,
+			refetchOnWindowFocus: false,
 		},
 	},
 });
